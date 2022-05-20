@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "minecraft:obsidian"
+      },
+      "X": {
+        "item": "minecraft:end_stone"
+      },
+      "D": {
+        "item": "minecraft:deepslate"
+      }
+    },
+    "pattern": [
+      "X#X",
+      "#D#",
+      "X#X"
+    ],
+    "result": {
+      "item": "minecraft:reinforced_deepslate"
+    }
+  }
