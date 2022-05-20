@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "planks",
+  "ingredient": {
+      "tag": "minecraft:spruce_logs"
+  },
+  "result": "minecraft:spruce_planks",
+    "count": 6
+}

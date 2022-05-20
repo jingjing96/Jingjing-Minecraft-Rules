@@ -1,0 +1,37 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "minecraft:bone_block"
+        },
+        {
+            "item": "minecraft:netherrack"
+        },
+        {
+            "item": "minecraft:blackstone"
+        },
+        {
+            "item": "minecraft:soul_sand"
+        },
+        {
+            "item": "minecraft:soul_soil"
+        },
+        {
+            "item": "minecraft:basalt"
+        },
+        {
+            "item": "minecraft:nether_wart_block"
+        },
+        {
+            "item": "minecraft:warped_wart_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:ancient_debris",
+        "count": 1
+    },
+  "group": "ancient_debris"
+}

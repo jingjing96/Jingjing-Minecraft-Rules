@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "jmcr:dyed_terracotta"
+        },
+        "O": {
+            "item": "minecraft:packed_ice"
+        }
+    },
+    "result": {
+        "item": "minecraft:terracotta",
+        "count": 8
+    },
+    "group": ""
+}

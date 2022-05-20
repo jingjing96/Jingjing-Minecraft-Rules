@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SXS",
+      "III"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:redstone_torch"
+      },
+      "X": {
+        "item": "minecraft:redstone"
+      },
+      "I": [
+        {"item": "minecraft:stone"},
+        {"item": "minecraft:deepslate"}
+      ]
+    },
+    "result": {
+      "item": "minecraft:repeater"
+    }
+}

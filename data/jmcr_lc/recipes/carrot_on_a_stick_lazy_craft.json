@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  S",
+      " ST",
+      "SCT"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "T": {
+        "item": "minecraft:string"
+      },
+      "C": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "result": {
+      "item": "minecraft:carrot_on_a_stick"
+    }
+  }

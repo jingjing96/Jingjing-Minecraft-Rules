@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_slab",
+  "ingredient": {
+      "tag": "minecraft:birch_logs"
+  },
+  "result": "minecraft:birch_slab",
+  "count": 12
+}

@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#A#",
+        "###"
+    ],
+    "key": {
+        "#": [
+            {"item": "minecraft:brain_coral"},
+            {"item": "minecraft:fire_coral"},
+            {"item": "minecraft:bubble_coral"},
+            {"item": "minecraft:tube_coral"}
+        ],
+        "A": {
+            "item": "minecraft:yellow_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:horn_coral",
+        "count": 8
+    }
+}

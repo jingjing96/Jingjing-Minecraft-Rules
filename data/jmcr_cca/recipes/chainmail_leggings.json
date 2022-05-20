@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "item": "minecraft:chainmail_leggings"
+    },
+    "group": "chainmail_armor"
+  }

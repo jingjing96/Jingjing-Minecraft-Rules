@@ -1,0 +1,13 @@
+{
+    "type": "smithing",
+    "base": {
+        "item": "minecraft:deepslate_redstone_ore"
+    },
+    "addition": {
+        "item": "minecraft:stone"
+    },
+    "result": {
+        "item": "minecraft:redstone_ore"
+    },
+    "group": "redstone_ore"
+}

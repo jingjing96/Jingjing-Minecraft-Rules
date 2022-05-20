@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " S ",
+      "SXS",
+      "III"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:redstone_torch"
+      },
+      "X": {
+        "item": "minecraft:quartz"
+      },
+      "I": [
+        {"item": "minecraft:stone"},
+        {"item": "minecraft:deepslate"}
+      ]
+    },
+    "result": {
+      "item": "minecraft:comparator"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "jmcr:dyed_candles"
+    },
+    "O": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "minecraft:candle",
+    "count": 8
+  }
+}

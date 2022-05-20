@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "BCB",
+        " A "
+      ],
+    "key": {
+        "A": {
+            "item": "minecraft:end_crystal"
+        },
+        "B": {
+            "item": "minecraft:dragon_breath"
+        },
+        "C": {
+            "item": "minecraft:dragon_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:dragon_head",
+        "count": 1
+    }
+}

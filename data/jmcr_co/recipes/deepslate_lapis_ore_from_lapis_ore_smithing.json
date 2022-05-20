@@ -1,0 +1,13 @@
+{
+    "type": "smithing",
+    "base": {
+        "item": "minecraft:lapis_ore"
+    },
+    "addition": {
+        "item": "minecraft:deepslate"
+    },
+    "result": {
+        "item": "minecraft:deepslate_lapis_ore"
+    },
+    "group": "deepslate_lapis_ore"
+}

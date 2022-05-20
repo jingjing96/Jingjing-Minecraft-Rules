@@ -1,0 +1,13 @@
+{
+    "type": "smithing",
+    "base": {
+        "item": "minecraft:copper_ore"
+    },
+    "addition": {
+        "item": "minecraft:deepslate"
+    },
+    "result": {
+        "item": "minecraft:deepslate_copper_ore"
+    },
+    "group": "deepslate_copper_ore"
+}

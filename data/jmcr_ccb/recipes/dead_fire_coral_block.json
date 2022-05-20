@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AA",
+		"AA"
+	],
+	"key": {
+		"A": [
+			{"item":"minecraft:dead_fire_coral"},
+			{"item":"minecraft:dead_fire_coral_fan"}
+		]
+	},
+	"result": {
+		"item": "minecraft:dead_fire_coral_block",
+		"count": 1
+	}
+}

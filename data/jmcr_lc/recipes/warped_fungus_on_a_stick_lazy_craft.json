@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  S",
+      " ST",
+      "SWT"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "T": {
+        "item": "minecraft:string"
+      },
+      "W": {
+        "item": "minecraft:warped_fungus"
+      }
+    },
+    "result": {
+      "item": "minecraft:warped_fungus_on_a_stick"
+    }
+  }
