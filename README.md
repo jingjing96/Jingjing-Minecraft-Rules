@@ -5,7 +5,7 @@
 
 这个项目包含数据包和配置文件两部分，目的是在原版Minecraft的基础上，在不添加任何额外物品和方块的前提下，仅通过修改配方、战利品表和游戏机制，以实现游戏内全部资源可再生，以及优化游戏体验。
 
-要使用本项目的全部内容，你需要安装：
+要体验本项目的全部内容，你需要安装：
 
 * Minecraft 1.19 or newer
 * [Fabric](https://fabricmc.net/) mod loader
@@ -14,6 +14,7 @@
 * [Carpet-Extra](https://github.com/gnembon/carpet-extra/) by [gnembon](https://github.com/gnembon)
 * [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)
 * [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)
+* [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)
 * [SkyBlock](https://github.com/jsorrell/skyblock) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
 
 ## 许可协议
@@ -33,13 +34,13 @@
 
 ### 更好的切石机
 
-* 切石机现在可以切割一些原版中不可分割的方块，包括：海晶石、海晶石砖、暗海晶石、海晶灯、砖块、石英块，荧石、岩浆块、下界砖块、紫珀块、紫水晶块、滴水石块，可以将它们分解成相应的原材料，避免手滑合错；
+* 切石机现在可以切割一些原版中不可分割的方块，包括：海晶石、海晶石砖、暗海晶石、海晶灯、砖块、蜜脾块、石英块，荧石、岩浆块、下界砖块、紫珀块、紫水晶块、滴水石块，可以将它们分解成相应的原材料，避免手滑合错；
 * 玻璃和染色玻璃可以切割成相应的玻璃板，比例为1:4，可以节省玻璃；
-* 蓝冰可以切割成浮冰，浮冰可以切割成冰；
-* 给矿物块（煤块、铜块、铁块、金块、钻石块、绿宝石块、青金石块、红石块）和粗矿块（粗铜块、粗铁块、粗金块）添加了切石机分解的配方；
+* 蓝冰可以切割成浮冰，浮冰可以切割成冰（比例同原版）；
+* 给矿物块（煤块、铜块、铁块、金块、钻石块、绿宝石块、青金石块、红石块、下界合金块）和粗矿块（粗铜块、粗铁块、粗金块）添加了切石机分解的配方；
 * 给铁锭和金锭添加了切石机分解的配方；
-* 原木、去皮原木、木块、去皮木块、菌柄、去皮菌柄、菌核、去皮菌核可以切割成对应材质的木板、台阶、楼梯；
-* 雪块、粘土块、西瓜、骨块可以使用切石机切割（比例同原版）；
+* 原木、去皮原木、木块、去皮木块、菌柄、去皮菌柄、菌核、去皮菌核可以切割成对应材质的木板、台阶、楼梯，可以节省木头；
+* 雪块、黏土块、黏液块、西瓜、骨块可以使用切石机分解（比例同原版）；
 
 ### 混凝土烧炼
 
@@ -129,8 +130,6 @@
 |           沙砾           |    8~16    | 40/***579*** |
 |           黑石           |    8~16    | 40/***579*** |
 
-
-
 ### 猪灵蛮兵掉落物
 
 * 猪灵蛮兵有概率掉落镶金黑石；
@@ -153,15 +152,15 @@
 ### 台阶可合成完整方块
 
 * 所有种类的台阶都可以在工作台中合成相应的完整方块；
-* 为避免合成表冲突，删除了原版所有錾制方块以及石英柱、紫珀柱的工作台合成表；
+* 为避免合成表冲突，删除了原版所有錾制方块以及石英柱、紫珀柱的工作台合成表，现在这些方块只能通过切石机合成；
 
 ### 全局圆石
 
-- 黑石和深板岩圆石可以取代所有圆石的合成表；
+- 黑石和深板岩圆石可以替代所有圆石的合成表；
 
 ### 全局石头
 
-- 深板岩可以取代所有石头的合成表；
+- 深板岩可以替代所有石头的合成表；
 
 ### 全局染色
 
@@ -374,7 +373,22 @@
 * villagerLeash true（拴绳可以栓村民）；
 * zombieHorseSpawning true（僵尸马可以自然生成）；
 
-## SkyBlock
+### Gugle-Carpet-Addition
+
+以下配置项被保存在“config/carpet/default_carpet.conf”文件中。
+
+只列出修改过的配置项，保持默认的项目不会列出。
+
+**注意：千万不要在假人的物品栏界面使用背包整理功能，否则可能导致假人失控**。
+
+* openFakePlayerInventory true（对假人右键可以打开其背包）；
+* openFakePlayerEnderChest true（对假人潜行+右键可以打开其末影箱）；
+* fakePlayerAutoFish true（假人可以自动钓鱼）；
+* fakePlayerAutoReplenishment true（假人可以自动补货）；
+* fakePlayerAutoReplaceTool true（假人可以自动替换将要损坏的工具）；
+* fakePlayerResident true（玩家退出存档时可以保留假人）；
+
+### SkyBlock
 
 以下配置项被保存在“config/carpet/default_skyblock.conf”文件中。
 
