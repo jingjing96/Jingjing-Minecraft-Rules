@@ -39,7 +39,7 @@
           "children": [
             {
               "type": "minecraft:tag",
-              "name": "skyblock:creeper_drop_music_discs_bastion",
+              "name": "minecraft:creeper_drop_music_discs_bastion",
               "expand": true,
               "conditions": [
                 {
@@ -52,7 +52,7 @@
             },
             {
               "type": "minecraft:tag",
-              "name": "skyblock:creeper_drop_music_discs_stronghold",
+              "name": "minecraft:creeper_drop_music_discs_stronghold",
               "expand": true,
               "conditions": [
                 {
