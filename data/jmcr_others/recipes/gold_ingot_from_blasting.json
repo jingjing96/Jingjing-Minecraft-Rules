@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "result": "minecraft:gold_ingot",
+  "experience": 0.1,
+  "cookingtime": 100
+}
