@@ -16,7 +16,7 @@
 * [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)
 * [Plusls-Carpet-Addition](https://github.com/plusls/plusls-carpet-addition) by [plusls](https://github.com/plusls)
 * [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)
-* [SkyBlock](https://github.com/jsorrell/skyblock) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
+* [CarpetSkyAdditions](https://github.com/jsorrell/CarpetSkyAdditions) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
 
 ## 许可协议
 
