@@ -10,7 +10,7 @@
       "item": "minecraft:dark_oak_boat"
     },
     "B": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:dark_oak_planks"
     }
   },
   "result": {

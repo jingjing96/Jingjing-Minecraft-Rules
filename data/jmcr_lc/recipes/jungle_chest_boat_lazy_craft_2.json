@@ -10,7 +10,7 @@
       "item": "minecraft:jungle_boat"
     },
     "B": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:jungle_planks"
     }
   },
   "result": {
