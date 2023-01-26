@@ -14,7 +14,7 @@
 * [Carpet-Extra](https://github.com/gnembon/carpet-extra/) by [gnembon](https://github.com/gnembon)
 * [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)
 * [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)
-* [Plusls-Carpet-Addition]([GitHub - plusls/plusls-carpet-addition: carpet addition for minecraft](https://github.com/plusls/plusls-carpet-addition)) by [plusls]([plusls (plusls) · GitHub](https://github.com/plusls))
+* [Plusls-Carpet-Addition](https://github.com/plusls/plusls-carpet-addition) by [plusls](https://github.com/plusls)
 * [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)
 * [SkyBlock](https://github.com/jsorrell/skyblock) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
 
