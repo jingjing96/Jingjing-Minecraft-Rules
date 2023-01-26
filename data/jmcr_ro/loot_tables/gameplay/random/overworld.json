@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "jmcr_or:gameplay/random/overworld_rock"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "jmcr_or:gameplay/random/overworld_ore"
+        }
+      ]
+    }
+  ]
+}

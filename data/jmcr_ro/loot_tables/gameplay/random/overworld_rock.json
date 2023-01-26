@@ -1,0 +1,166 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 2032,
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:stone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 2032,
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:andesite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 2032,
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:diorite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 2032,
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:granite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ],"conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:cobbled_deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:tuff"
+        }
+      ]
+    }
+  ]
+}

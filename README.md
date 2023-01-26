@@ -14,6 +14,7 @@
 * [Carpet-Extra](https://github.com/gnembon/carpet-extra/) by [gnembon](https://github.com/gnembon)
 * [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)
 * [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)
+* [Plusls-Carpet-Addition]([GitHub - plusls/plusls-carpet-addition: carpet addition for minecraft](https://github.com/plusls/plusls-carpet-addition)) by [plusls]([plusls (plusls) · GitHub](https://github.com/plusls))
 * [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)
 * [SkyBlock](https://github.com/jsorrell/skyblock) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
 
@@ -139,15 +140,21 @@
 
 * 被玩家杀死的劫掠兽有概率掉落钻石，掉落概率和卫道士掉落绿宝石的概率相等，掉落数量也相等。
 
-### 粗矿块可烧炼
-
-* 粗铜块、粗铁块、粗金块可以在高炉中烧炼成铜块、铁块、金块（虽然烧炼时间长，但仍然可以节省燃料，同时可以获得更多经验）；
-
 ### 可修理的铁砧
 
 * 开裂的铁砧可以用一个铁块在锻造台上修复成完好的铁砧；
 * 损坏的铁砧可以用一个铁块在锻造台上修复成开裂的铁砧；
 * 给开裂的铁砧和损坏的铁砧添加了合成表；
+
+### 随机矿石
+
+- 用精准采集工具挖掘被虫蚀的方块会掉落方块自身，而不是正常方块；
+- 用普通工具挖掘被虫蚀的方块会掉落随机矿物，矿物种类与玩家所在维度和高度有关（仍然会生成蠹虫）。
+- 时运附魔只会增加掉落数量，并不会掉落更稀有的矿石；
+
+### 粗矿块可烧炼
+
+* 粗铜块、粗铁块、粗金块可以在高炉中烧炼成铜块、铁块、金块（虽然烧炼时间长，但仍然可以节省燃料，同时可以获得更多经验）；
 
 ### 台阶可合成完整方块
 
@@ -156,11 +163,11 @@
 
 ### 全局圆石
 
-- 黑石和深板岩圆石可以替代所有圆石的合成表；
+* 黑石和深板岩圆石可以替代所有圆石的合成表；
 
 ### 全局石头
 
-- 深板岩可以替代所有石头的合成表；
+* 深板岩可以替代所有石头的合成表；
 
 ### 全局染色
 
@@ -173,13 +180,13 @@
 
 ### 更好的村庄英雄
 
-- 盔甲匠、工具匠、武器匠有概率给予玩家熔岩桶；
+* 盔甲匠、工具匠、武器匠有概率给予玩家熔岩桶；
 
 ### 其他
 
 * 被玩家杀死的僵尸村民有概率掉落绿宝石；
 * 在下界被玩家杀死的女巫有概率掉落下界疣；
-* 挖掘刷怪笼会掉落8个铁栏杆；
+* 挖掘刷怪笼会随机掉落1~8个铁栏杆；
 * 修改了所有船的合成表，现在合成船需要额外的两把木锹；
 * 修改了切石机的合成表，用平滑石头替代了石头；
 * 修改了末影水晶的合成表，用下界之星替代了恶魂之泪；
@@ -190,6 +197,7 @@
 * 烧制下界疣块或诡异疣块可以获得下界岩；
 * 烧制腐肉可以获得皮革；
 * 烧制灵魂沙可以获得灵魂土；
+* 大多数铁制和金制物品可以被烧炼成铁粒或金粒；
 * 给一些原版不可合成的物品添加了合成表，包括：鞍、蜘蛛网、命名牌、草方块、缠根泥土、强化深板岩、凋零玫瑰、钟、附魔金苹果、海洋之心、不死图腾、龙头、鞘翅；
 * 给收纳袋添加了合成表；
 * 给黏土添加了增产的合成表；
@@ -234,7 +242,7 @@
 * placementRotationFix true（修复了快速旋转的玩家放置方块时产生的问题）；
 * renewableBlackstone true（黑石可再生，当流动的岩浆接触蓝冰时，如果岩浆下方没有灵魂土，则会生成黑石）；
 * renewableCoral expanded（珊瑚可再生，对着活的珊瑚或珊瑚扇撒骨粉可以生成珊瑚块，在暖水海洋之外的群系仍然有效，但对长在墙上的珊瑚或珊瑚扇无效）；
-* renewableDeepslate true（深板岩可再生，水和熔岩在Y=16以下相遇会生成深板岩或深板岩圆石）；
+* renewableDeepslate true（深板岩可再生，水和熔岩在Y=0以下相遇会生成深板岩或深板岩圆石）；
 * renewableSponges true（海绵可再生，守卫者被闪电击中后会变成远古守卫者）；
 * rotatorBlock true（发射器可以使用仙人掌扳手，尽可能逆时针旋转方块）；
 * shulkerSpawningInEndCities true（潜影贝会在末地城中重新生成）；
@@ -255,69 +263,38 @@
 只列出修改过的配置项，保持默认的项目不会列出。
 
 * accurateBlockPlacement true（启用对Tweakeroo模组的tweakAccurateBlockPlacement配置项的支持）；
-
 * autoCraftingDropper true（当投掷器朝向工作台并且里面摆放有有效的合成表时，激活投掷器将触发自动合成，产物将以掉落物形式输出）；
-
 * betterBonemeal true（骨粉可以用来增产甘蔗、仙人掌、睡莲）；
-
 * blazeMeal true（烈焰粉可以给下界疣施肥，发射器可以像使用骨粉一样使用烈焰粉）；
-
 * blockStateSyncing true（方块状态自动同步，用于在调试信息中即时显示方块状态的更新，以及适配一些材质包）；
-
 * chickenShearing true（可以给成年的鸡剪毛，每次剪毛鸡都会受到0.5颗心的伤害）；
-
 * clericsFarmWarts true（牧师村民可以种植下界疣）；
-
 * comparatorBetterItemFrames extended（红石比较器可以像检测普通方块一样检测物品展示框，即将物品展示框视为一个方块）；
-
 * comparatorReadsClock true（红石比较器可以读取物品展示框里面时钟的时间，而不是检测旋转角度）；
-
 * creeperSpawningInJungleTemples true（丛林神殿中只会生成苦力怕）；
-
 * dispenserPlacesBlocks true（发射器可以放置方块）；
-
 * dispensersCarvePumpkins true（装有剪刀的发射器可以雕刻南瓜）；
-
 * dispensersFeedAnimals true（装有合适食物的发射器可以喂食动物，也可以给棕色哞菇喂花）；
-
 * dispensersFillMinecarts true（装有合适物品并且朝向矿车的发射器可以组装矿车，包括漏斗矿车、箱子矿车、TNT矿车、动力矿车）；
-
 * dispensersMilkAnimals true（装有空桶的发射器可以给牛、哞菇、山羊挤奶，装有空碗的发射器可以从哞菇身上获得蘑菇煲或迷之炖菜）；
-
+* dispensersPlaceBoatsOnIce true（装有船的发射器可以将船放在冰上）；
 * dispensersPlayRecords true（装有唱片的发射器可以在唱片机中播放唱片，如果唱片机里已经有唱片，则会将已有唱片放回发射器中）；
-
 * dispensersPotPlants true（装有合适植物并且朝向花盆的发射器可以将植物种在花盆里）；
-
 * dispensersStripBlocks true（装有斧头的发射器可以给方块去皮，包括给木头去皮，给铜除氧化层，给铜除蜡）；
-
 * dispensersTillSoil true（装有锄头的发射器可以锄地）；
-
 * dispensersToggleThings true（装有木棍的发射器可以拨动或使用方块，例如按钮、红石粉、音符盒、红石比较器、红石中继器等）；
-
 * dispensersUseCauldrons true（发射器可以使用炼药锅，包括使用桶或玻璃瓶填充或清空炼药锅，给潜影盒或皮革盔甲去除颜色，给旗帜去除图案）；
-
 * emptyShulkerBoxStackAlways true（空潜影盒总是能够堆叠）；
-
 * enderPearlChunkLoading true（水平飞行的末影珍珠可以加载区块）；
-
 * flowerPotChunkLoading true（在花盆里种植凋零玫瑰可以加载区块，相当于一个区块加载器）；
-
 * hopperMinecartItemTransfer true（漏斗矿车可以将物品输出到下方的容器）；
-
 * pistonRedirectsRedstone true（红石粉会自动连接到相邻的活塞或黏性活塞）；
-
 * reloadSuffocationFix true（修复了区块重新加载时生物可能会卡在方块里的问题）；
-
 * renewableEndstone true（发射器可以使用龙息将圆石转化成末地石）；
-
 * renewableNetherrack true（发射器可以使用火焰弹将圆石转化成下界岩）；
-
 * renewableWitherSkeletons true（被闪电击中的骷髅会变成凋零骷髅）；
-
 * spiderJockeysDropGapples 10（蜘蛛骑士有10%的概率掉落附魔金苹果）；
-
 * straySpawningInIgloos true（雪屋中只会生成流浪者）；
-
 * variableWoodDelays true（不同木材制作的按钮和压力板具有不同的延迟）
 
   |     材质     | 延迟（tick） |
@@ -343,6 +320,7 @@
 * entityMomentumLoss false（关闭了当从磁盘载入区块时实体速度超过10m/gt部分的沿轴速度的丢失）；
 * failSoftBlockStateParsing true（忽略在/setblock等命令的方块状态参数中出现的无效参数，这有利于跨版本粘贴litematica模组的原理图等）；
 * fakePlayerNamePrefix bot\_（给使用/player命令召唤的假人添加了“bot\_”前缀，防止玩家召唤名字奇怪的假人）；
+* farmlandTrampledDisabled true（防止耕地被生物踩坏）；
 * largeBarrel true（两个底部贴在一起的木桶可以变成大木桶，类似原版的大箱子）；
 * optimizedFastEntityMovement true（优化高速实体移动）；
 * optimizedHardHitBoxEntityCollision true（优化硬碰撞箱实体的碰撞，例如潜影贝、船）；
@@ -351,6 +329,7 @@
 * renewableDragonHead true（被高压苦力怕炸死的末影龙会掉落一个龙首）；
 * renewableElytra 0.2（被潜影贝杀死的幻翼有20%的概率掉落鞘翅）；
 * repeaterHalfDelay true（位于红石矿石上的红石中继器的延迟将会减半，只对普通红石矿石有效，深层红石矿石无效）；
+* stopCommandDoubleConfirmation true（一分钟内重复输入两次/stop命令才能关闭服务器，防止服务器被误关）；
 * synchronizedLightThread true（同步光照线程）；
 
 ### Carpet-RedCraft-Addons
@@ -370,8 +349,24 @@
 * reviveCoral true（对着失活的珊瑚、珊瑚扇、珊瑚块使用水瓶可将其复活）；
 * ropes true（拴绳可以栓在两根栅栏之间）；
 * spongeSqueeze true（用干海绵右键有水的炼药锅可以获得湿海绵，用湿海绵右键未满的炼药锅可以获得干海绵，同时使炼药锅里的水增加1/3）；
-* villagerLeash true（拴绳可以栓村民）；
 * zombieHorseSpawning true（僵尸马可以自然生成）；
+
+### Plusls-Carpet-Addition
+
+以下配置项被保存在“config/carpet/default_carpet.conf”文件中。
+
+只列出修改过的配置项，保持默认的项目不会列出。
+
+* pcaSyncProtocol true（PCA同步协议，可用于在服务端和客户端之间同步方块和方块实体的数据）；
+* pcaSyncPlayerEntity EVERYONE（PCA同步协议可同步玩家数据）；
+* useDyeOnShulkerBox true（使用染料右击潜影盒方块可对其染色，使用水瓶右击可以洗掉颜色）；
+* quickLeafDecay true（自然生长且周围没有原木的树叶会立即凋落）；
+* superLead true（拴绳可以栓村民和怪物）；
+* villagersAttractedByEmeraldBlock true（村民会跟随手持绿宝石块的玩家）；
+* avoidAnvilTooExpensive true（防止铁砧过于昂贵，即使用铁砧修复和附魔物品时允许消耗超过40级的经验）；
+* powerfulBoneMeal true（骨粉可以增产甘蔗、仙人掌、紫颂花）；
+* dispenserFixIronGolem true（发射器可以消耗铁锭来修复铁傀儡）；
+* autoTrade true（使用发射器和村民自动交易，若发射器下方是绿宝石块，则交易一次，若发射器下方是钻石块，则尽可能多地交易，交易条目取决于发射器接收到的红石信号强度）；
 
 ### Gugle-Carpet-Addition
 
@@ -387,10 +382,11 @@
 * fakePlayerAutoReplenishment true（假人可以自动补货）；
 * fakePlayerAutoReplaceTool true（假人可以自动替换将要损坏的工具）；
 * fakePlayerResident true（玩家退出存档时可以保留假人）；
+* betterSignEditing true（玩家可以使用名称中带有“笔”或“pen”的羽毛编辑告示牌）；
 
 ### SkyBlock
 
-以下配置项被保存在“config/carpet/default_skyblock.conf”文件中。
+以下配置项被保存在“config/carpet/default_carpetskyadditions”文件中。
 
 只列出修改过的配置项，保持默认的项目不会列出。
 
@@ -399,7 +395,13 @@
 * wanderingTraderSkyBlockTrades true（给流浪商人增加了额外交易项目，包括4种高花和熔岩桶）；
 * lightningElectrifiesVines（当闪电击中附着有藤蔓的荧石或荧石上的避雷针时，藤蔓会变成发光地衣）；
 * renewableBuddingAmethysts true（在一个熔岩源的每个面上包裹上方解石，再在方解石的每个面上包裹上平滑玄武岩，一段时间后熔岩源会变成紫水晶母岩，平均需要两个小时）；
-* renewableHeartsOfTheSea true（当海豚得到一条鱼放弃寻找宝藏时有概率吐出一颗海洋之心）；
+* renewableHeartsOfTheSea true（当海豚被喂食后并开始寻找宝藏时，它们有概率从海底的沙子或沙砾中挖出一颗海洋之心）；
 * renewableDiamonds true（用下落的铁砧砸一组煤块会将其变成一颗钻石）；
 * rammingWart true（山羊冲撞下界疣块会将其变成下界疣）；
-* foxesSpawnWithBerries true（狐狸生成时嘴里有概率叼着甜浆果或发光浆果）
+* foxesSpawnWithSweetBerriesChance 0.2（当狐狸生成并且嘴里叼着物品时，该物品有20%的概率是甜浆果）；
+* allayableVexes true（恼鬼会接收16个方块以内的音符盒发出的音符，当连续5此接收到正确的音符后会转化为悦灵，音符盒的乐器种类和八度将被忽略。当恼鬼在矿车中时，可以使用探测铁轨和比较器来判断下一次应该接收的音符）；
+* saplingsDieOnSand true（放在沙子或红沙上的树苗在一段时间后会枯萎变成枯死的灌木）；
+* hugeMushroomsSpreadMycelium true（当蘑菇生长成大型蘑菇时会将周围的泥土类方块转化为菌丝，类似于大型云杉树转化灰化土）；
+* renewableEchoShards true（蝙蝠和海豚被坚守者的音爆杀死时会掉落回响碎片）；
+* renewableSwiftSneak true（距离坚守者8个方块以内的附魔台可以附魔迅捷潜行）；
+* poisonousPotatoesConvertSpiders true（给蜘蛛喂食毒马铃薯可将其转化为洞穴蜘蛛）；
