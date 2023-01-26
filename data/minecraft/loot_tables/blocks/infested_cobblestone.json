@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:infested_cobblestone"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:overworld"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "jmcr_ro:gameplay/random/overworld"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:the_nether"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "jmcr_ro:gameplay/random/nether"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:the_end"
+                  }
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "jmcr_ro:gameplay/random/end"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 117,
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/nether_quartz_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 117,
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/nether_gold_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 64,
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/gilded_blackstone"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 45,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 2032,
+                    "min": -16
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/coal_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 112,
+                    "min": -16
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/copper_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 384,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/iron_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 32,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/gold_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 16,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/redstone_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 64,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/lapis_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 480,
+                    "min": -16
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/emerald_ore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 16,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:blocks/diamond_ore"
+        }
+      ]
+    }
+  ]
+}
