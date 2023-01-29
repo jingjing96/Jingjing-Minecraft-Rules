@@ -10,7 +10,7 @@
       "item": "minecraft:birch_boat"
     },
     "B": {
-      "item": "minecraft:birch_planks"
+      "tag": "minecraft:planks"
     }
   },
   "result": {

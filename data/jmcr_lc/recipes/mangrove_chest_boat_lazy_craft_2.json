@@ -10,7 +10,7 @@
       "item": "minecraft:mangrove_boat"
     },
     "B": {
-      "item": "minecraft:mangrove_planks"
+      "tag": "minecraft:planks"
     }
   },
   "result": {
