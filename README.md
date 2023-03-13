@@ -24,6 +24,10 @@
 
 ## 数据包
 
+## 更好的铁砧
+
+* 使用下落的铁砧砸一些方块或物品可以进行粉碎、压合、筛矿、装备分解，详见[README.md](https://github.com/jingjing96/Jingjing-Minecraft-Rules/blob/1.19-1.19.3/data/jmcr_ba/README.md)；
+
 ### 更好的钓鱼
 
 * 调整了墨囊的获得数量，但获得概率不变（属于垃圾，原版为固定10个，修改后为1~10个）；

@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:air"
+          },
+          {
+            "type": "minecraft:tag",
+            "weight": 32,
+            "expand": true,
+            "name": "jmcr:mushroom"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "minecraft:stick"
+          },
+          {
+            "type": "minecraft:tag",
+            "weight": 8,
+            "expand": true,
+            "name": "minecraft:saplings"
+          },
+          {
+            "type": "minecraft:tag",
+            "weight": 8,
+            "expand": true,
+            "name": "jmcr:seeds"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:string"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:bone_meal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:clay_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:bamboo"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:hanging_roots"
+          }
+        ]
+      }
+    ]
+  }
