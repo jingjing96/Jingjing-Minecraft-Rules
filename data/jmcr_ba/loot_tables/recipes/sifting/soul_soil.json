@@ -1,0 +1,79 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:air"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "minecraft:clay_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "minecraft:bone_meal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:gunpowder"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:nether_wart"
+          },
+          {
+            "type": "minecraft:tag",
+            "weight": 8,
+            "expand": true,
+            "name": "jmcr:nether_grass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:blaze_powder"
+          },
+          {
+            "type": "minecraft:tag",
+            "weight": 4,
+            "expand": true,
+            "name": "jmcr:nether_vines"
+          },
+          {
+            "type": "minecraft:tag",
+            "weight": 2,
+            "expand": true,
+            "name": "jmcr:fungus"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:ghast_tear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:netherite_scrap"
+          }
+        ]
+      }
+    ]
+  }

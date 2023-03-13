@@ -1,0 +1,513 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:chainmail_helmet\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:chainmail_chestplate\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:chainmail_leggings\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:chainmail_boots\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_sword\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_shovel\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_pickaxe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_axe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_hoe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_helmet\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_chestplate\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_leggings\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_boots\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:iron_horse_armor\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_sword\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_shovel\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_pickaxe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_axe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_hoe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_helmet\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_chestplate\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_leggings\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_boots\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:golden_horse_armor\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_sword\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_shovel\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_pickaxe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_axe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_hoe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_helmet\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_chestplate\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_leggings\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_boots\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:diamond_horse_armor\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_sword\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_shovel\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_pickaxe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_axe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_hoe\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_helmet\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_chestplate\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_leggings\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:netherite_boots\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:elytra\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:turtle_helmet\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:trident\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:shield\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:shears\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:flient_and_steel\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:totem_of_undying\",Count:1b}}"
+			}
+		},
+
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:minecart\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:chest_minecart\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:furnace_minecart\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:tnt_minecart\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:hopper_minecart\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:oak_chest_boat\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:spruce_chest_boat\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:birch_chest_boat\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:jungle_chest_boat\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:acacia_chest_boat\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:dark_oak_chest_boat\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item:{id:\"minecraft:mangrove_chest_boat\",Count:1b}}"
+			}
+		}
+    ]
+}

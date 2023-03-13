@@ -1,0 +1,38 @@
+{
+    "condition": "minecraft:alternative",
+	"terms": [
+        {
+            "condition": "location_check",
+            "offsetY": -2,
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:anvil"
+                    ]
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetY": -2,
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:chipped_anvil"
+                    ]
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetY": -2,
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:damaged_anvil"
+                    ]
+                }
+            }
+        }
+    ]
+}

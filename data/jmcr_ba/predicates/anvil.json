@@ -1,0 +1,26 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}"
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}"
+			}
+		}
+	]
+}

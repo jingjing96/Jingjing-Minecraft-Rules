@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:air"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 32,
+            "name": "minecraft:stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "minecraft:string"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "minecraft:bone_meal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "minecraft:clay_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 12,
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:flint"
+          }
+        ]
+      }
+    ]
+  }
