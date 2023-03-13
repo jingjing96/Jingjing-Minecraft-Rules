@@ -7,7 +7,7 @@
 
 要体验本项目的全部内容，你需要安装：
 
-* Minecraft 1.19 or newer
+* Minecraft 1.19 to 1.19.3
 * [Fabric](https://fabricmc.net/) mod loader
 * [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Fabric-Carpet](https://github.com/gnembon/fabric-carpet) by [gnembon](https://github.com/gnembon)
