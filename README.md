@@ -10,7 +10,7 @@
 
 要体验本项目的全部内容，你需要安装：
 
-* Minecraft 1.18.1
+* Minecraft 1.18.1 (1.18~1.18.2 for datapack only)
 * [Fabric](https://fabricmc.net/) mod loader
 * [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 * [Fabric-Carpet](https://github.com/gnembon/fabric-carpet) by [gnembon](https://github.com/gnembon)
@@ -409,4 +409,4 @@
 * renewableHeartsOfTheSea true（当海豚得到一条鱼放弃寻找宝藏时有概率吐出一颗海洋之心）；
 * renewableDiamonds true（用下落的铁砧砸一组煤块会将其变成一颗钻石）；
 * rammingWart true（山羊冲撞下界疣块会将其变成下界疣）；
-* foxesSpawnWithBerries true（狐狸生成时嘴里有概率叼着甜浆果或发光浆果）
+* foxesSpawnWithBerries true（狐狸生成时嘴里有概率叼着甜浆果或发光浆果）；
