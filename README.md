@@ -18,7 +18,7 @@
 * [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)
 * [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)
 * [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)
-* [SkyBlock](https://github.com/jsorrell/skyblock) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
+* [CarpetSkyAdditions](https://github.com/jsorrell/CarpetSkyAdditions) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
 
 ## 许可协议
 
@@ -395,7 +395,7 @@
 * fakePlayerAutoReplaceTool true（假人可以自动替换将要损坏的工具）；
 * fakePlayerResident true（玩家退出存档时可以保留假人）；
 
-### SkyBlock
+### Carpet-Sky-Additions
 
 以下配置项被保存在“config/carpet/default_skyblock.conf”文件中。
 
