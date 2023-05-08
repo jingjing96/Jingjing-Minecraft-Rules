@@ -392,7 +392,7 @@
 * fakePlayerResident true（玩家退出存档时可以保留假人）；
 * betterSignEditing true（玩家可以使用名称中带有“笔”或“pen”的羽毛编辑告示牌）；
 
-### SkyBlock
+### Carpet-Sky-Additions
 
 以下配置项被保存在“config/carpet/default_carpetskyadditions”文件中。
 
