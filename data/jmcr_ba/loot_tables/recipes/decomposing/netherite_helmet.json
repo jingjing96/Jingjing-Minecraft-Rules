@@ -16,6 +16,22 @@
             "name": "minecraft:netherite_scrap"
           }
         ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:air"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:diamond"
+          }
+        ]
       }
     ]
   }

@@ -13,8 +13,12 @@
       "item": "minecraft:redstone"
     },
     "I": [
-      {"item": "minecraft:stone"},
-      {"item": "minecraft:deepslate"}
+      {
+        "item": "minecraft:stone"
+      },
+      {
+        "item": "minecraft:deepslate"
+      }
     ]
   },
   "result": {
