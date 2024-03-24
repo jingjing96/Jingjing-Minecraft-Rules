@@ -20,10 +20,12 @@ execute if block ~ ~-1 ~ minecraft:nether_wart_block if block ~ ~-2 ~ minecraft:
 
 # 苔藓块+泥土=草方块
 execute if block ~ ~-1 ~ minecraft:moss_block if block ~ ~-2 ~ minecraft:dirt run function jmcr_ba:recipes/laminating/to/grass_block
-# 蘑菇柄+泥土=菌丝
+# 蘑菇块/蘑菇柄+泥土=菌丝
+execute if block ~ ~-1 ~ minecraft:brown_mushroom_block if block ~ ~-2 ~ minecraft:dirt run function jmcr_ba:recipes/laminating/to/mycelium
+execute if block ~ ~-1 ~ minecraft:red_mushroom_block if block ~ ~-2 ~ minecraft:dirt run function jmcr_ba:recipes/laminating/to/mycelium
 execute if block ~ ~-1 ~ minecraft:mushroom_stem if block ~ ~-2 ~ minecraft:dirt run function jmcr_ba:recipes/laminating/to/mycelium
-# 砂土+菌丝=灰化土
-execute if block ~ ~-1 ~ minecraft:coarse_dirt if block ~ ~-2 ~ minecraft:mycelium run function jmcr_ba:recipes/laminating/to/podzol
+# 苔藓块+菌丝=灰化土
+execute if block ~ ~-1 ~ minecraft:moss_block if block ~ ~-2 ~ minecraft:mycelium run function jmcr_ba:recipes/laminating/to/podzol
 # 下界疣块+下界岩=绯红菌岩
 execute if block ~ ~-1 ~ minecraft:nether_wart_block if block ~ ~-2 ~ minecraft:netherrack run function jmcr_ba:recipes/laminating/to/crimson_nylium
 # 诡异疣块+下界岩=诡异菌岩

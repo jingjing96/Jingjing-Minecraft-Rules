@@ -1,0 +1,23 @@
+{
+  "type": "jmcr_mw:the_end",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 0,
+    "settings": {
+      "biome": "jmcr_mw:the_end",
+      "lakes": false,
+      "features": true,
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 127,
+          "block": "minecraft:end_stone"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

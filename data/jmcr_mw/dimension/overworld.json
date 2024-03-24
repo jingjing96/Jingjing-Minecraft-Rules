@@ -1,0 +1,35 @@
+{
+  "type": "jmcr_mw:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 0,
+    "settings": {
+      "biome": "jmcr_mw:plains",
+      "lakes": false,
+      "features": true,
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 63,
+          "block": "minecraft:deepslate"
+        },
+        {
+          "height": 123,
+          "block": "minecraft:stone"
+        },
+        {
+          "height": 4,
+          "block": "minecraft:dirt"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:grass_block"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}
