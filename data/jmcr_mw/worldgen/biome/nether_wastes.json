@@ -45,7 +45,15 @@
       "minecraft:ore_debris_small",
       "jmcr_mw:ore_basalt",
       "jmcr_mw:ore_soul_soil",
-      "jmcr_mw:ore_gilded_blackstone"
+      "jmcr_mw:ore_gilded_blackstone",
+      "jmcr_mw:ore_magma_small",
+      "jmcr_mw:ore_blackstone_small",
+      "jmcr_mw:ore_basalt_small",
+      "jmcr_mw:ore_gravel_small",
+      "jmcr_mw:ore_soul_sand_small",
+      "jmcr_mw:ore_soul_soil_small",
+      "jmcr_mw:ore_lava_small",
+      "jmcr_mw:ore_ancient_debris"
     ]
   ],
   "precipitation": "none",

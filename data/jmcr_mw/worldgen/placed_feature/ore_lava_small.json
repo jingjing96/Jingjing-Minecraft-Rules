@@ -1,9 +1,9 @@
 {
-  "feature": "jmcr_mw:ore_gilded_blackstone",
+  "feature": "jmcr_mw:ore_lava_small",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 256
+      "count": 10
     },
     {
       "type": "minecraft:in_square"
@@ -13,7 +13,7 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 95
+          "absolute": 127
         },
         "min_inclusive": {
           "absolute": 0
