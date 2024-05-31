@@ -22,7 +22,20 @@
     [],
     [
       "jmcr_wg:ore_obsidian",
-      "jmcr_wg:ore_purpur_block"
+      "jmcr_wg:ore_purpur_block",
+      "jmcr_mw:ore_coal_end",
+      "jmcr_mw:ore_copper_end",
+      "jmcr_mw:ore_iron_end",
+      "jmcr_mw:ore_gold_end",
+      "jmcr_mw:ore_raw_copper_end",
+      "jmcr_mw:ore_raw_iron_end",
+      "jmcr_mw:ore_raw_gold_end",
+      "jmcr_mw:ore_amethyst_end",
+      "jmcr_mw:ore_lapis_end",
+      "jmcr_mw:ore_redstone_end",
+      "jmcr_mw:ore_diamond_end",
+      "jmcr_mw:ore_emerald_end",
+      "jmcr_mw:ore_netherite_end"
     ]
   ],
   "precipitation": "none",
