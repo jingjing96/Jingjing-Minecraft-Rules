@@ -232,7 +232,7 @@
 - allowSpawningOfflinePlayers true（允许假人功能生成离线玩家）；
 - antiCheatDisabled true（禁用反作弊移动检测，防止玩家因为移动过快或因为飞行而被踢出服务器）；
 - chainStone true（当铁链被活塞推拉时，铁链会连接它两端的方块一起移动）；
-- commandPlayer true（启用/Player命令，允许玩家生成并控制假人）
+- commandPlayer true（启用/Player命令，允许玩家生成并控制假人）；
 - commandScript ops（仅允许OP玩家使用脚本控制器）；
 - ctrlQCraftingFix true（在合成界面按Ctrl+Q可以丢出全部合成的物品）；
 - desertShrubs true（树苗在沙漠会变成枯萎的灌木）；
