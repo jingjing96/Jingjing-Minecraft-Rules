@@ -10,15 +10,15 @@
 
 要体验本项目的全部内容，你需要安装：
 
-- Minecraft 1.18.1 (1.18 & 1.18.2 for datapack only)
-- [Fabric](https://fabricmc.net/) mod loader
-- [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-- [Fabric-Carpet](https://github.com/gnembon/fabric-carpet) by [gnembon](https://github.com/gnembon)
-- [Carpet-Extra](https://github.com/gnembon/carpet-extra/) by [gnembon](https://github.com/gnembon)
-- [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)
-- [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)
-- [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)
-- [CarpetSkyAdditions](https://github.com/jsorrell/CarpetSkyAdditions) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
+- Minecraft 1.18.1 (1.18 & 1.18.2 for datapack only)；
+- [Fabric](https://fabricmc.net/) mod loader；
+- [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)；
+- [Fabric-Carpet](https://github.com/gnembon/fabric-carpet) by [gnembon](https://github.com/gnembon)；
+- [Carpet-Extra](https://github.com/gnembon/carpet-extra/) by [gnembon](https://github.com/gnembon)；
+- [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)；
+- [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)；
+- [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)；
+- [CarpetSkyAdditions](https://github.com/jsorrell/CarpetSkyAdditions) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)；
 
 ## 许可协议
 
@@ -141,7 +141,7 @@
 
 ### 劫掠兽掉落钻石
 
-- 被玩家杀死的劫掠兽有概率掉落钻石，掉落概率和卫道士掉落绿宝石的概率相等，掉落数量也相等。
+- 被玩家杀死的劫掠兽有概率掉落钻石，掉落概率和卫道士掉落绿宝石的概率相等，掉落数量也相等；
 
 ### 可修理的铁砧
 
@@ -152,7 +152,7 @@
 ### 随机矿石
 
 - 用精准采集工具挖掘被虫蚀的方块会掉落方块自身，而不是正常方块；
-- 用普通工具挖掘被虫蚀的方块会掉落随机矿物，矿物种类与玩家所在维度和高度有关（仍然会生成蠹虫）。
+- 用普通工具挖掘被虫蚀的方块会掉落随机矿物，矿物种类与玩家所在维度和高度有关（仍然会生成蠹虫）；
 - 时运附魔只会增加掉落数量，并不会掉落更稀有的矿石；
 
 ### 粗矿块可烧炼
@@ -220,7 +220,7 @@
 - allowSpawningOfflinePlayers true（允许假人功能生成离线玩家）；
 - antiCheatDisabled true（禁用反作弊移动检测，防止玩家因为移动过快或因为飞行而被踢出服务器）；
 - chainStone true（当铁链被活塞推拉时，铁链会连接它两端的方块一起移动）；
-- commandPlayer true（启用/Player命令，允许玩家生成并控制假人）
+- commandPlayer true（启用/Player命令，允许玩家生成并控制假人）；
 - commandScript ops（仅允许OP玩家使用脚本控制器）；
 - ctrlQCraftingFix true（在合成界面按Ctrl+Q可以丢出全部合成的物品）；
 - desertShrubs true（树苗在沙漠会变成枯萎的灌木）；
@@ -293,7 +293,7 @@
 - renewableWitherSkeletons true（被闪电击中的骷髅会变成凋零骷髅）；
 - spiderJockeysDropGapples 10（蜘蛛骑士有10%的概率掉落附魔金苹果）；
 - straySpawningInIgloos true（雪屋中只会生成流浪者）；
-- variableWoodDelays true（不同木材制作的按钮和压力板具有不同的延迟）
+- variableWoodDelays true（不同木材制作的按钮和压力板具有不同的延迟）；
 
   |     材质     | 延迟（tick） |
   | :--------: | :------: |
@@ -354,7 +354,7 @@
 
 只列出修改过的配置项，保持默认的项目不会列出。
 
-**注意：千万不要在假人的物品栏界面使用背包整理功能，否则可能导致假人失控**。
+**注意：千万不要在假人的物品栏界面使用背包整理功能，否则可能导致假人失控。**
 
 - openFakePlayerInventory true（对假人右键可以打开其背包）；
 - openFakePlayerEnderChest true（对假人潜行+右键可以打开其末影箱）；
