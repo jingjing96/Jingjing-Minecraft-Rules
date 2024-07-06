@@ -10,16 +10,16 @@
 
 要体验本项目的全部内容，你需要安装：
 
-- Minecraft 1.19 to 1.19.3
-- [Fabric](https://fabricmc.net/) mod loader
-- [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-- [Fabric-Carpet](https://github.com/gnembon/fabric-carpet) by [gnembon](https://github.com/gnembon)
-- [Carpet-Extra](https://github.com/gnembon/carpet-extra/) by [gnembon](https://github.com/gnembon)
-- [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)
-- [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)
-- [Plusls-Carpet-Addition](https://github.com/plusls/plusls-carpet-addition) by [plusls](https://github.com/plusls)
-- [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)
-- [CarpetSkyAdditions](https://github.com/jsorrell/CarpetSkyAdditions) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)
+- Minecraft 1.19 to 1.19.3；
+- [Fabric](https://fabricmc.net/) mod loader；
+- [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)；
+- [Fabric-Carpet](https://github.com/gnembon/fabric-carpet) by [gnembon](https://github.com/gnembon)；
+- [Carpet-Extra](https://github.com/gnembon/carpet-extra/) by [gnembon](https://github.com/gnembon)；
+- [Carpet-TIS-Addition](https://github.com/TISUnion/Carpet-TIS-Addition) by [TISUnion](https://github.com/TISUnion)；
+- [Carpet-RedCraft-Addons](https://github.com/MultiCoreNetwork/carpet-redcraft-addons) by [MultiCoreNetwork](https://github.com/MultiCoreNetwork)；
+- [Plusls-Carpet-Addition](https://github.com/plusls/plusls-carpet-addition) by [plusls](https://github.com/plusls)；
+- [Gugle-Carpet-Addition](https://github.com/Gu-ZT/gugle-carpet-addition) by [Gu-ZT](https://github.com/Gu-ZT)；
+- [CarpetSkyAdditions](https://github.com/jsorrell/CarpetSkyAdditions) by [jsorrell](https://github.com/jsorrell) (WITHOUT datapack)；
 
 ## 许可协议
 
@@ -99,7 +99,7 @@
 
 ### 旧的合成表
 
-- 将运输船、运输矿车、漏斗矿车、动力矿车、TNT矿车的合成表改为了有序合成，即改回了22w13a之前的合成方式。
+- 将运输船、运输矿车、漏斗矿车、动力矿车、TNT矿车的合成表改为了有序合成，即改回了22w13a之前的合成方式；
 
 ### 更多猫的礼物
 
@@ -147,7 +147,7 @@
 
 ### 劫掠兽掉落钻石
 
-- 被玩家杀死的劫掠兽有概率掉落钻石，掉落概率和卫道士掉落绿宝石的概率相等，掉落数量也相等。
+- 被玩家杀死的劫掠兽有概率掉落钻石，掉落概率和卫道士掉落绿宝石的概率相等，掉落数量也相等；
 
 ### 可修理的铁砧
 
@@ -158,7 +158,7 @@
 ### 随机矿石
 
 - 用精准采集工具挖掘被虫蚀的方块会掉落方块自身，而不是正常方块；
-- 用普通工具挖掘被虫蚀的方块会掉落随机矿物，矿物种类与玩家所在维度和高度有关（仍然会生成蠹虫）。
+- 用普通工具挖掘被虫蚀的方块会掉落随机矿物，矿物种类与玩家所在维度和高度有关（仍然会生成蠹虫）；
 - 时运附魔只会增加掉落数量，并不会掉落更稀有的矿石；
 
 ### 粗矿块可烧炼
@@ -185,7 +185,7 @@
 
 ### 世界生成
 
-- 黑曜石和紫珀块可以作为矿物在末地生成，详见[README.md](https://github.com/jingjing96/Jingjing-Minecraft-Rules/blob/1.19-1.19.3/data/jmcr_wg/README.md)
+- 黑曜石和紫珀块可以作为矿物在末地生成，详见[README.md](https://github.com/jingjing96/Jingjing-Minecraft-Rules/blob/1.19-1.19.3/data/jmcr_wg/README.md)；
 
 ### 僵尸疣猪兽掉落猪鼻旗帜图案
 
@@ -306,7 +306,7 @@
 - renewableWitherSkeletons true（被闪电击中的骷髅会变成凋零骷髅）；
 - spiderJockeysDropGapples 10（蜘蛛骑士有10%的概率掉落附魔金苹果）；
 - straySpawningInIgloos true（雪屋中只会生成流浪者）；
-- variableWoodDelays true（不同木材制作的按钮和压力板具有不同的延迟）
+- variableWoodDelays true（不同木材制作的按钮和压力板具有不同的延迟）；
 
   |     材质     | 延迟（tick） |
   | :--------: | :------: |
